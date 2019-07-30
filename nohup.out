@@ -1,0 +1,290 @@
+listening at http://localhost:undefined
+
+listening at http://localhost:8067
+
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8067
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1277:14)
+    at listen (net.js:1313:10)
+    at Server.listen (net.js:1409:5)
+    at EventEmitter.listen (/home/znmobile/znmobile/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/znmobile/znmobile/prod.server.js:6:22)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8067
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1277:14)
+    at listen (net.js:1313:10)
+    at Server.listen (net.js:1409:5)
+    at EventEmitter.listen (/home/znmobile/znmobile/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/znmobile/znmobile/prod.server.js:6:22)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8067
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1277:14)
+    at listen (net.js:1313:10)
+    at Server.listen (net.js:1409:5)
+    at EventEmitter.listen (/home/znmobile/znmobile/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/znmobile/znmobile/prod.server.js:6:22)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8067
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1277:14)
+    at listen (net.js:1313:10)
+    at Server.listen (net.js:1409:5)
+    at EventEmitter.listen (/home/znmobile/znmobile/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/znmobile/znmobile/prod.server.js:6:22)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8067
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1277:14)
+    at listen (net.js:1313:10)
+    at Server.listen (net.js:1409:5)
+    at EventEmitter.listen (/home/znmobile/znmobile/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/znmobile/znmobile/prod.server.js:6:22)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8067
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1277:14)
+    at listen (net.js:1313:10)
+    at Server.listen (net.js:1409:5)
+    at EventEmitter.listen (/home/znmobile/znmobile/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/znmobile/znmobile/prod.server.js:6:22)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8067
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1277:14)
+    at listen (net.js:1313:10)
+    at Server.listen (net.js:1409:5)
+    at EventEmitter.listen (/home/znmobile/znmobile/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/znmobile/znmobile/prod.server.js:6:22)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8068
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8067
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1277:14)
+    at listen (net.js:1313:10)
+    at Server.listen (net.js:1409:5)
+    at EventEmitter.listen (/home/znmobile/znmobile/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/znmobile/znmobile/prod.server.js:6:22)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+listening at http://localhost:8067
+
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8067
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1277:14)
+    at listen (net.js:1313:10)
+    at Server.listen (net.js:1409:5)
+    at EventEmitter.listen (/home/znmobile/znmobile/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/znmobile/znmobile/prod.server.js:6:22)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8067
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1277:14)
+    at listen (net.js:1313:10)
+    at Server.listen (net.js:1409:5)
+    at EventEmitter.listen (/home/znmobile/znmobile/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/znmobile/znmobile/prod.server.js:6:22)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)

@@ -1,0 +1,204 @@
+/* 覆盖mint-ui的primary颜色，改为微信UI的绿色 */
+$color-primary: #05AFAF;
+
+.mint-header {
+  background-color: #FFFFFF;
+}
+.mint-header .mint-button {
+  background-color: transparent;
+  border: 0;
+  box-shadow: none;
+  color:  #26a2ff;
+  display: inline-block;
+  padding: 0;
+  font-size: 18px
+}
+.mint-header-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #2b2b2b;
+  white-space: nowrap;
+  font-size: 18px;
+  font-weight: 400;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.mint-button:not(.is-disabled):active::after {
+  opacity: .2 /* .6 */
+}
+.mint-button--primary {
+  background-color: $color-primary;
+}
+.mint-button--primary.is-plain {
+  border: 1px solid $color-primary;
+  color: $color-primary
+}
+.mint-badge.is-primary {
+  background-color: $color-primary
+}
+.mint-switch-input:checked + .mint-switch-core {
+  border-color: $color-primary;
+  background-color: $color-primary;
+}
+.mint-navbar .mint-tab-item.is-selected {
+  border-bottom: 3px solid $color-primary;
+  color: $color-primary;
+}
+.mint-tabbar > .mint-tab-item.is-selected {
+  color: $color-primary;
+}
+.mint-searchbar-cancel {
+  color: $color-primary;
+}
+.mint-checkbox-input:checked + .mint-checkbox-core {
+  background-color: $color-primary;
+  border-color: $color-primary;
+}
+.mint-radio-input:checked + .mint-radio-core {
+  background-color: $color-primary;
+  border-color: $color-primary;
+}
+.mt-range-progress {
+  background-color: $color-primary;
+}
+.mt-progress-progress {
+  background-color: $color-primary;
+}
+.mint-msgbox-confirm {
+  color: $color-primary;
+}
+.mint-msgbox-confirm:active {
+  color: $color-primary;
+}
+.mint-datetime-action {
+  color: $color-primary;
+}
+.mint-popup {
+  position: fixed;
+  background: #fff;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+}
+
+.mint-radiolist .mint-cell {
+  padding: 0;
+  display: inline-block;
+}
+
+/*.mint-radiolist-label {
+  display: block;
+  padding: 0 10px;
+}*/
+
+/*.mint-radiolist-title {
+  font-size: 12px;
+  margin: 0;
+  display: block;
+  color: #fff;
+}*/
+
+.mint-radio.is-right {
+  float: right;
+}
+
+.mint-radio-label {
+  vertical-align: middle;
+  margin-left: 6px;
+}
+
+.mint-radio-input {
+  display: none;
+}
+
+.mint-radio-input:checked + .mint-radio-core {
+  background-color: #26a2ff;
+  border-color: #26a2ff;
+}
+
+.mint-radio-input:checked + .mint-radio-core::after {
+  background-color: #fff;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.mint-radio-input[disabled] + .mint-radio-core {
+  background-color: #d9d9d9;
+  border-color: #ccc;
+}
+
+.mint-radio-core {
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 100%;
+  border: 1px solid #ccc;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.mint-radio-core::after {
+  content: " ";
+  border-radius: 100%;
+  top: 5px;
+  left: 5px;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+.mint-radiolist{
+  background:#ffffff;
+  margin-top:1.0rem;
+}
+.mint-radiolist .mint-cell {
+  padding: 0;
+  display: inline-block;
+}
+.mint-radio-input:checked + .mint-radio-core {
+  background-color: #26a2ff;
+  border-color: #26a2ff;
+}
+.mint-cell:last-child {
+  background-image: -webkit-linear-gradient(bottom, #d9d9d9, #d9d9d9 50%, transparent 50%);
+  background-image: linear-gradient(0deg, #d9d9d9, #d9d9d9 50%, transparent 50%);
+  background-size: 100% 0;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.mint-cell-wrapper {
+  background-image: -webkit-linear-gradient(top, #d9d9d9, #d9d9d9 50%, transparent 50%);
+  background-image: linear-gradient(180deg, #d9d9d9, #d9d9d9 50%, transparent 50%);
+  background-size: 120% 0;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-origin: content-box;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  line-height: 1;
+  min-height: inherit;
+  overflow: hidden;
+  padding: 0 10px;
+  width: 100%;
+}

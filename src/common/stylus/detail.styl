@@ -1,0 +1,768 @@
+@import "./variable.styl"
+.my-header {
+  text-align: center;
+  color: #fff;
+  position:relative;
+}
+
+.my-header .top-Header {
+  height: 2.5rem;
+  text-align: left;
+}
+  /*头部报销*/
+  .title_header{
+    width:100%;
+    position:fixed;
+    top:1.3rem;
+    z-index:999;
+  }
+    /*头部报销end*/
+    /*基本信息*/
+    .bx_content{
+      width:100%;
+      margin-top:4.5rem;
+      margin-bottom:4.5rem;
+      overflow: auto;
+    }
+    /*基本信息end*/
+    /*关闭附件*/
+.fujian_close
+  margin-top 4.0rem
+  overflow auto
+  .fu_look
+    width 100%
+    height 2.0rem
+    background-color #FFFFFF
+    border-bottom:1px solid #f5f5f5
+    box-shadow 1px 2px 5px #f5f5f5
+    -webkit-box-shadow 1px 2px 5px #f5f5f5
+    -o-box-shadow 1px 2px 5px #f5f5f5
+    -moz-box-shadow 1px 2px 5px #f5f5f5
+    .ful
+      display inline-block
+      float left
+      margin-left 0.2rem
+      margin-top 0.4rem
+      .img_fu
+        height 1.5rem
+        width 1.5rem
+    .fum
+      display inline-block
+      float left
+      margin-left 0.2rem
+      margin-top 0.7rem
+    .fur
+      float right
+      margin-top 0.5rem
+      margin-right 0.5rem
+      .img_arrows_down
+        height 1.0rem
+        width 1.0rem
+ /*关闭附件end*/
+.belowheader
+  background-color #e8f5fe;
+  z-index -1
+  width 100%
+  margin-top 0.2rem
+  margin-bottom 0.5rem
+  display flex
+  flex-direction column
+  align-items center
+  box-shadow 1px 5px 5px #e8f5fe
+  -moz-box-shadow 1px 5px 5px #e8f5fe
+  -o-box-shadow 1px 5px 5px #e8f5fe
+  -webkit-box-shadow 1px 5px 5px #e8f5fe
+  .belowheader-item
+    width 95%
+    margin-top 0.3rem
+    display flex
+    flex-direction row
+  .belowheader-itemsub
+    width 90%
+    height 1.6rem
+    border-bottom 1px solid $color-line
+    display flex
+    flex-direction row
+    .belowheader-left
+      width 100%
+      display flex
+      align-items center
+      justify-content flex-start
+      .belowheader-title
+        display flex
+        justify-content flex-start
+        width 30%
+        font-size $font-size-large
+        font-weight 600
+      .belowheader-input
+        outline none
+        margin-left 0.2rem
+        width:70%
+        padding-bottom 0.1rem
+        font-size $font-size-large
+    .belowheader-right
+      width 20%
+      display flex
+      justify-content center
+      .entering-icon
+        width 1rem
+      .location-icon
+        width 1.5rem
+        height 1.5rem
+        margin-top 0.3rem
+  //列表展示
+.entering
+  z-index -1
+  width 100%
+  margin-top 0.2rem
+  margin-bottom 1.0rem
+  display flex
+  flex-direction column
+  align-items center
+  .entering-item
+    width 95%
+    height 2.0rem
+    /*border-bottom 1px solid $color-line*/
+    display flex
+    flex-direction row
+  .entering-itemsub
+    width 95%
+    height 1.6rem
+    /*border-bottom 1px solid $color-line*/
+    display flex
+    flex-direction row
+    .entering-left
+      width 100%
+      display flex
+      align-items center
+      justify-content flex-start
+      .entering-title
+        display flex
+        justify-content flex-start
+        width 40%
+        font-size $font-size-medium
+      .entering-input
+        outline none
+        margin-left 0.2rem
+        height 0.5rem
+        /*width:70%*/
+        padding-bottom 0.1rem
+        background-color #FFFFFF
+        font-size $font-size-medium
+      .areasite
+        border-style none
+        border-color #FFFFFF
+        outline none
+        overflow auto
+        resize none
+        width 70%
+        height 1.5rem
+        margin-top 0.4rem
+      .areatask
+        border-style none
+        border-color #FFFFFF
+        outline none
+        overflow auto
+        resize none
+        width 70%
+        height 1.5rem
+        margin-top 0.5rem
+        padding-top 0.2rem
+    .entering-right
+      width 20%
+      display flex
+      justify-content center
+      .entering-icon
+        width 1rem
+      .location-icon
+        width 1.5rem
+        height 1.5rem
+        margin-top 0.3rem
+.enteringchecknote
+  z-index -1
+  width 100%
+  margin-top 0.2rem
+  margin-bottom 0.5rem
+  display flex
+  flex-direction column
+  align-items center
+  .entering-checknotesub
+    width 90%
+    height 3.0rem
+    border-bottom 1px solid $color-line
+    display flex
+    .entering-checknotzeinput
+      outline none
+      margin-left 0.2rem
+      width:100%
+      padding-bottom 0.1rem
+      background-color #FFFFFF
+      font-size $font-size-medium
+
+.entering-sub
+  position fixed
+  bottom 0
+  left 0
+  width 100%
+  height 2rem
+  background-color $color-button-theme
+  display flex
+  justify-content center
+  align-items center
+  .entering-add
+    width 2rem
+    height 2rem
+.exam-bottom
+  position fixed
+  bottom 0
+  left 0
+  right 0
+  top 92%
+  width 100%
+  height 3rem
+  /*background-color #3aadfd*/
+  background-color #3aadfb
+  display flex
+  .exam-left
+    width:50%
+    display flex
+    align-items center
+    justify-content flex-start
+    .left-button
+      padding 0.2rem 0.5rem
+      border 1px solid $color-button-theme
+      border-radius 0.8rem
+      background-color $color-button-theme
+      color $color-theme-white
+      margin-left 1rem
+      margin-right 1rem
+      margin-bottom 0.5rem
+      font-size 15px
+  .exam-right
+    width:50%
+    display flex
+    justify-content flex-end
+    align-items center
+    .right-button
+      padding 0.2rem 0.5rem
+      border 1px solid $color-button-theme
+      border-radius 0.8rem
+      background-color $color-button-theme
+      color $color-theme-white
+      margin-right 1rem
+      margin-bottom 0.5rem
+      font-size 15px
+/*遮罩层*/
+.entershare
+  position fixed
+  left 0
+  top 0
+  bottom 0
+  right 0
+.enterstage
+  position fixed
+  left 0
+  top 0
+  bottom 0
+  right 0
+.entertask
+  position fixed
+  left 0
+  top 0
+  bottom 0
+  right 0
+.entertime
+  position fixed
+  left 0
+  top 0
+  bottom 0
+  right 0
+.list-item
+  width 100%
+  display flex
+  border-bottom 1px solid $color-line
+  &.li-active
+    background-color $color-line
+    border-bottom 1px solid $color-background-line
+  .item
+    margin 0.5rem 0.8rem
+    width 100%
+    .list-title
+      display flex
+      width 100%
+      align-items center
+      .title
+        text-align start
+        word-break break-all
+        font-size $font-size-medium-x
+        line-height 0.8rem
+        width 90%
+    .list-content
+      display flex
+      margin 0.5rem auto
+      .content
+        font-size $font-size-medium
+        color $color-project-font
+        margin-right 1rem
+    .list-bottom
+      display flex
+      color $color-theme-white
+      font-size $font-size-medium
+      .list-date
+        padding 0.2rem 0.3rem
+        background-color $color-theme
+        border-radius 1rem
+      .list-area
+        padding 0.2rem 0.3rem
+        background-color $color-button-theme
+        margin-left 0.4rem
+        border-radius 1rem
+      .list-author
+        padding 0.2rem 0.3rem
+        background-color $color-button-theme-a
+        margin-left 0.4rem
+        border-radius 1rem
+      .list-delay
+        padding 0.2rem 0.3rem
+        background-color #ea0000
+        margin-left 0.4rem
+        border-radius 1rem
+        display flex
+        align-items center
+        .delay-down
+          margin-left 0.1rem
+          width 0
+          height 0
+          border-top 5px solid #ffffff
+          border-left 5px solid transparent
+          border-right 5px solid transparent
+          transform rotate(0deg)
+.panel
+  background-color #fff
+  margin-top 0.2rem
+  border-bottom 1px solid #f5f5f5
+  margin-left 0.2rem
+  margin-right 0.2rem
+  font-family Microsoft Yahei
+  .panelTitle
+    width 100%
+    display flex
+    flex-direction row
+    align-items center
+    justify-content flex-start
+    padding-top 0.3rem
+    padding-bottom 0.3rem
+    .titleLeft
+      margin-left 0.5rem
+      font-size $font-size-large
+      font-weight 600
+      width 90%
+      display flex
+      justify-content flex-start
+      word-break break-all
+      text-align start
+      line-height 0.8rem
+    .titleRight
+      margin-right 0.5rem
+      img
+        width 1.0rem
+        height 1.0rem
+  .panelBody
+    width 100%
+    border-top 1px solid #dcdcdc
+    .bodyTop
+      padding-left 0.5rem
+      padding-top 0.2rem
+      padding-bottom 0.2rem
+      display flex
+      flex-direction row
+      align-items center
+      justify-content flex-start
+      background-color $color-theme-white
+      .bodyTopLeft
+        width 80%
+        display flex
+        flex-direction row
+        align-items center
+        .bodyTitle
+          font-size $font-size-medium
+          display flex
+          justify-content flex-start
+          word-break break-all
+          text-align start
+          line-height 0.8rem
+        .allCheckButton
+          margin-left 0.5rem
+          font-size $font-size-small
+          border 1px solid $color-theme
+          border-radius 0.8rem
+          color $color-theme
+          background-color $color-theme-white
+          padding 0.2rem 0.4rem
+          &.allCheck
+            background-color $color-theme
+            color $color-theme-white
+      .bodyTopRight
+        display flex
+        align-items center
+        .countImg
+          width 2rem
+          display flex
+          align-items center
+          justify-content center
+          img
+            width 1.5rem
+            height 1.3rem
+        .iconImg
+          width 1.2rem
+          height 1.2rem
+          display flex
+          justify-content center
+          align-items center
+          margin-left 0.3rem
+          margin-right 0.5rem
+          img
+            width 1.0rem
+            height 1.0rem
+    .bodyContent
+      width 100%
+      .content-item
+        padding-top 0.3rem
+        padding-bottom 0.3rem
+        padding-left 0.5rem
+        border-top 1px solid $color-line
+        &.item-active
+          background-color $color-background-line
+          border-bottom 1px solid $color-background-line
+          border-left: 1px solid #00b9ff;
+        .item
+          display flex
+          flex-direction row
+          align-items center
+          .itemLeft
+            width 90%
+            .itemLeftTop
+              display flex
+              flex-direction row
+              align-items center
+              .name
+                font-size $font-size-small
+                border 1px solid $color-theme
+                border-radius 0.8rem
+                background-color $color-theme
+                color $color-theme-white
+                padding 0rem 0.4rem
+                margin-right 0.4rem
+              .date
+                font-size $font-size-small
+                margin-left 0.4rem
+                color $color-project-font
+              .time
+                font-size $font-size-small
+                margin-left 0.5rem
+                color $color-project-font
+            .itemLeftBottom
+              display flex
+              flex-direction row
+              margin-top 0.3rem
+              .detail
+                font-size $font-size-small
+                color $color-theme
+              .detailContent
+                font-size $font-size-small
+                color $color-project-font
+                width:75%
+                overflow hidden
+                text-overflow ellipsis
+                white-space nowrap
+                text-align start
+          .itemRight
+            display flex
+            align-items center
+            justify-content center
+            margin-right 0.3rem
+            img
+              width 1.5rem
+              height 1.5rem
+        .itemDelay
+          display flex
+          flex-direction row
+          margin-top 0.2rem
+          img
+            width 1.8rem
+            height 1.0rem
+          .delay-list
+            margin 0.2rem 0rem
+            width 90%
+            .delay-list-item
+              display flex
+              position relative
+              .delay-left-icon
+                width 0.5rem
+                height 0.5rem
+                background-color $color-theme
+                border-radius 50%
+                position absolute
+                z-index 10
+              .delay-list-right
+                border-left 1px solid $color-line
+                padding-left 0.5rem
+                margin-left 0.25rem
+                width 100%
+                .delay-list-title
+                  display flex
+                  width 100%
+                  .delay-title
+                    text-align start
+                    word-break break-all
+                    font-size $font-size-medium
+                    line-height 0.8rem
+                    width 90%
+                .delay-list-content
+                  display flex
+                  margin 0.3rem auto
+                  .delay-content
+                    font-size $font-size-small
+                    color $color-project-font
+                  .delay-content-author
+                    font-size $font-size-small
+                    color $color-project-font
+                    margin-left 0.2rem
+                .delay-list-line
+                  width 100%
+                  height 0.1rem
+                  background-color $color-line
+                  margin-bottom 0.3rem
+.panel_bottom
+  background-color #f5f5f5
+  margin-top 0.2rem
+  border-radius 0.3rem
+  margin-left 0.2rem
+  margin-bottom 2.0rem
+  margin-right 0.2rem
+  font-family Microsoft Yahei
+/*资源人天样式*/
+.overlayer
+  position fixed
+  left 0
+  top 0
+  width 100%
+  height 100%
+  z-index 100
+  background-color $color-overlayer
+  .over-panel
+    position fixed
+    top 20%
+    left 5%
+    width 90%
+    background-color $color-theme-white
+    border-radius 5px
+    .over-top
+      width 100%
+      height 2rem
+      display flex
+      flex-direction row
+      border-bottom 1px solid $color-line
+      .top-item-span
+        width 80%
+        height 100%
+        display flex
+        align-items center
+        justify-content flex-start
+        .top-span
+          margin-left 0.8rem
+          font-size $font-size-medium
+          font-weight 500
+      .top-item-img
+        width 20%
+        height 100%
+        display flex
+        align-items center
+        justify-content center
+        .top-img
+          width 1.2rem
+          height 1.2rem
+    .over-bottom
+      margin-top 1.0rem
+      padding-bottom 0.5rem
+      .content-top
+        display flex
+        flex-direction row
+        justify-content center
+        align-items center
+        .planDay
+          width 50%
+          display flex
+          flex-direction column
+          align-items center
+          justify-content center
+          .planDayNum
+            font-size $font-size-large-m
+            color $color-theme
+          .planDayText
+            margin-top 0.2rem
+            font-size $font-size-medium-x
+            color $color-theme
+          .surplusDayNum
+            font-size $font-size-large-m
+            color $color-button-theme
+          .surplusDayText
+            margin-top 0.2rem
+            font-size $font-size-medium-x
+            color $color-button-theme
+      .content-bottom
+        margin-top 0.3rem
+        display flex
+        justify-content center
+        align-items center
+/*工作详情样式*/
+.overDetail
+  position fixed
+  left 0
+  top 0
+  width 100%
+  height 100%
+  z-index 100
+  background-color $color-overlayer
+  .detail-panel
+    position fixed
+    top 20%
+    left 5%
+    width 90%
+    background-color $color-theme-white
+    border-radius 5px
+    .detail-top
+      width 100%
+      height 2rem
+      display flex
+      flex-direction row
+      border-bottom 1px solid $color-line
+      .top-item-span
+        width 80%
+        height 100%
+        display flex
+        align-items center
+        justify-content flex-start
+        .top-name
+          margin-left 0.8rem
+          font-size $font-size-small
+          border 1px solid $color-theme
+          border-radius 0.8rem
+          background-color $color-theme
+          color $color-theme-white
+          padding 0rem 0.4rem
+          margin-right 0.4rem
+        .top-span
+          font-size $font-size-medium
+          font-weight 500
+          color $color-theme
+      .top-item-img
+        width 20%
+        height 100%
+        display flex
+        align-items center
+        justify-content center
+        .top-img
+          width 1.2rem
+          height 1.2rem
+    .detail-bottom
+      margin-top 0.5rem
+      padding-bottom 0.5rem
+      margin-left 0.8rem
+      margin-right 0.8rem
+      .detail-content
+        font-size $font-size-medium
+        word-break break-all
+        text-align start
+        line-height 0.8rem
+        margin-top 0.2rem
+        span
+          color $color-theme
+.popupbtn
+  height 1.7rem
+  background-color #3aadfb
+  color #FFFFFF
+  margin-top 1.0rem
+  padding-left 4rem
+  padding-right 4rem
+  border-radius 0.75rem
+  float left
+  margin-left 1.0rem
+  margin-bottom 0.5rem
+.btn
+  position fixed
+  bottom 0
+  font-family Microsoft Yahei
+  background-color #fff
+  width 100%
+  /*打开附件*/
+  .fu_splite_1
+    display inline-block
+    width 100%
+    height 0.3rem
+    /*background-color rgba(0,0,0,0.1)*/
+    background-color #f5f5f5
+    box-shadow 1px 2px 1px rgba(0,0,0,0.1)
+    float left
+  .fu_look
+    width 100%
+    height 1.8rem
+    .ful
+      display inline-block
+      float left
+      margin-top 0.2rem
+      .img_fu
+        height 1.5rem
+        width 1.5rem
+    .fum
+      display inline-block
+      float left
+      margin-left 0.2rem
+      margin-top 0.5rem
+    .fur
+      float right
+      margin-top 0.5rem
+      margin-right 0.5rem
+      .img_arrows_up
+        height 1.0rem
+        width 1.0rem
+  .fu_splite_2
+    display inline-block
+    width 100%
+    height 0.2rem
+    /*background-color #f5f5f5*/
+    background-color rgba(0,0,0,0.1)
+    float left
+ /*打开附件end*/
+.morebtnl
+  float:left
+  background-color #FFFFFF
+  color #3aadfb
+  margin-top 1.0rem
+  margin-left 0.5rem
+  margin-right 0.2rem
+  height 1.5rem
+  width 1.5rem
+  font-family Microsoft Yahei
+.morebtnr
+  float:right
+  background-color #FFFFFF
+  color #3aadfb
+  margin-left 0.2rem
+  margin-top 1.0rem
+  margin-right 0.5rem
+  height 1.5rem
+  width 1.5rem
+  font-family Microsoft Yahei
+  .hr0
+    height:0.7px
+    border:none
+    border-top:1px
+    dashed #1E90FF
+.opinion
+  background-color #fff
+  outline none
+  height 90%
+  padding-left 0.2rem
+  padding-right 0.2rem
+  font-family Microsoft Yahei
