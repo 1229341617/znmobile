@@ -15,7 +15,7 @@
   "dependencies": {
     "ajv": "^6.0.0",
     "ajv-keywords": "^3.1.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-plugin-component": "^1.1.0",
     "better-scroll": "^1.9.1",
     "es5-shim": "^4.5.10",
